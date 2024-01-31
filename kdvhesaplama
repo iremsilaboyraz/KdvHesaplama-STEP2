@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Kdv {
+    public static void main(String[] args){
+        double kdv,kdvsiz,kdvli;
+        Scanner kDv= new Scanner(System.in);
+        System.out.printf("para miktarı:");
+
+        kdvsiz=kDv.nextDouble();
+        kdv=(kdvsiz*18)/100;
+        kdvli=kdvsiz+kdv;
+        System.out.println("kdvsiz fiyat:"+kdvsiz);
+        System.out.println("kdvli fiyat:"+kdvli);
+        System.out.println("kdv miktarı:"+kdv);
+
+}
+    }
